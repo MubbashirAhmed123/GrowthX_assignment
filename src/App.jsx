@@ -1,6 +1,6 @@
 import React from 'react'
-import SimpleStar from './Components/Start'
-import SimpleT from './Components/ArcLogo'
+import StarLogo from './Components/StarLogo'
+import ArcLogo from './Components/ArcLogo'
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <div>
 
       
-      <SimpleStar />
-      <SimpleT />
+      <StarLogo />
+      <ArcLogo />
       </div>
     </div>
   )

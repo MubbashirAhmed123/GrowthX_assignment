@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const SimpleT = () => {
-  // Wider T-shape path
+const ArcLogo = () => {
   const tPath = "M60,50 L240,50 C210,80 150,120 150,150 C150,120 90,80 60,50 Z";
 
   return (
@@ -22,4 +21,4 @@ const SimpleT = () => {
   );
 };
 
-export default SimpleT;
+export default ArcLogo;
