@@ -20,8 +20,7 @@ A beautiful, animated logo component built with React, and Framer Motion. Featur
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd elevate-logo-animation
+git clone https://github.com/MubbashirAhmed123/GrowthX_assignment.git
 
 ```
 2. Install dependencies:
