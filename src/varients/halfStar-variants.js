@@ -1,11 +1,12 @@
 
 export  const pathVariants = {
     initial: {
-      strokeDasharray: 1000,
-      strokeDashoffset: 1000
+      opacity: 0,
+    
     },
     animate: {
-      strokeDashoffset: 0
+      opacity: 1,
+    
     }
   };
 

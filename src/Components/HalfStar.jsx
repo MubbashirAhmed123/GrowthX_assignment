@@ -7,16 +7,16 @@ const HalfStar = () => {
 
   return (
     <div className="flex items-center justify-center">
-      <svg width="300" height="120" viewBox="0 0 300 120">
+      <svg width="300" height="120" viewBox="0 0 300 120" >
         <defs>
           <clipPath id="arcClip">
             <path d={arcPath} transform="translate(0, -80)" />
           </clipPath>
           
           <linearGradient id="liquidGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#ffffff" stopOpacity="0.9" />
-            <stop offset="50%" stopColor="#ffffff" stopOpacity="0.8" />
-            <stop offset="100%" stopColor="#ffffff" stopOpacity="0.7" />
+            <stop offset="0%" stopColor="white" stopOpacity="100%" />
+            <stop offset="100%" stopColor="white" stopOpacity="80%" />
+            <stop offset="100%" stopColor="white" stopOpacity="70%" />
           </linearGradient>
         </defs>
         
@@ -27,9 +27,10 @@ const HalfStar = () => {
           strokeWidth="2"
           fill="transparent"
           variants={pathVariants}
+          transition={pathTransition}
           initial="initial"
           animate="animate"
-          transition={pathTransition}
+
         />
         
         <g clipPath="url(#arcClip)">

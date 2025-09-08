@@ -1,6 +1,6 @@
 export  const textVariants = {
     initial: {
-      y: 50,
+      y: 30,
       opacity: 0
     },
     animate: {

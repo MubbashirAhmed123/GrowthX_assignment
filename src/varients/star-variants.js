@@ -1,8 +1,8 @@
 export  const starVariants = {
     initial: {
       scale: 0.2,
-      x: -200,
-      y: -50,
+      x: -100,
+      y: -30,
       opacity: 0,
       rotate: 0
     },
@@ -11,7 +11,7 @@ export  const starVariants = {
       x: 0,
       y: 0,
       opacity: 1,
-      rotate: 360
+      rotate: 180
     }
   };
 
