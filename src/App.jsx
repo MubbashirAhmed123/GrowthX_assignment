@@ -21,6 +21,11 @@ function App() {
         <HalfStar />
         <LogoText />
       </motion.div>
+      {[1, 2, 3, 4].map((_i, num) => (
+        <div>
+          {num}
+        </div>
+      ))}
     </div>
   );
 }
